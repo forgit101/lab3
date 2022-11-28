@@ -4,6 +4,9 @@
     int it1 = 0;
     int it2 = 0;
     int result_array[right - left];
+    int changed;
+    int chsnged2;
+  //look at dif
 
     while (left + it1 < mid && mid + it2 < right){
         if (array[left + it1] < array[mid + it2]){
